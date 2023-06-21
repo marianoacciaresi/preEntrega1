@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.css';
+import '../assets/styles.css';
 import CartWidget from "./CartWidget";
 
 
@@ -14,7 +14,7 @@ const NavBar = ({ logo, menuItem }) => {
                     
                     <div > 
                     <a class="navbar-brand noFlex" href="#">                        
-                        <img src="../preEntrega1/assets/logo_nav_bty.webp" alt={logo} width="110" height="40" id="navLogo" class="d-inline-block align-top"/>  
+                        <img src="../preEntrega1/assets/logo_nav_bty.webp" alt={logo} width="110" height="40" id="navLogo" class="d-inline-block"/>  
                     </a>
                     <a class="navbar-brand noFlex" href=""> TT23 - Tu paleta a medida</a>
                     </div>
